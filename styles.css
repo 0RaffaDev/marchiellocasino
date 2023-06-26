@@ -129,12 +129,9 @@ img{
 
 }    
 #tirar:hover{
-    box-shadow: 0 0 13px crimson inset  ;
+    box-shadow: 0 0 13px crimson inset;
 }
-.bg{
-    
 
-}
 
 
 #ventanas{
@@ -197,6 +194,7 @@ img{
     padding: 10px   ;
     width: 180px;
     cursor: pointer;
+    display: flex;
 }
 
 #games:hover{
@@ -211,4 +209,14 @@ img{
 }
     
 
+#bestgames{
+    display: flex;
+   
+}
 
+
+
+#dinopepino{
+    width: 300px;
+    height: 180px;
+}
