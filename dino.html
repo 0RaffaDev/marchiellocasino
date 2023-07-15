@@ -6,24 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type=text/css href="styles.css">
     <title>Dinosaurio Chrome V2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
     <style>
 
-* {
-    padding: 0;
-    margin: 0;
-}
-
 body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
+    background-color: gray;
+    font-family: "Belanosima";
+    margin: auto;
+    user-select: none;
 }
 
 .contenedor {
     width: 920px;
     height: 280px;
-    margin: 0 auto;
-    
+    margin: auto;
     position: relative;
 
     background: linear-gradient(#b7d6c7, transparent) #ffe2d1;/*linear-gradient(#90ebff, white);*/
@@ -151,22 +149,25 @@ body{
 </head>
 <body background="background.jpg">
 
+    <section id="tit">
+        <img id="logo" src="logo casino.png">
+        <center><h1> MARCHIELLO</h1></center>
+    </section>
+
 
     <nav id="menu">
         <a href="index.html"><button class="menuop">Inicio</button></a>
         
     </nav>
-    <nav id="menu">
-        <a href="tragamonedas.html"><button class="menuop">Tragamonedas</button></a>
-    </nav>
+  
     <header>
         <div id="linea1">
-        <div id="credito">JUEGOS DESTACADOS</div>
+        <div id="credito">DINO PEPINO</div>
         <div id="simbolo">!</div>
         </div>
 </header>
-
-          <div class="contenedor">
+<section>
+          <div class="contenedor" onclick="Update()">
 
         <div class="suelo"></div>
         
@@ -177,6 +178,7 @@ body{
     </div>
 
     <div class="game-over">GAME OVER</div>
+</section>
     
 
 <script>
